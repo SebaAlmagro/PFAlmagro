@@ -14,28 +14,42 @@
 
 <body>
     <header>
-        <h1>
-            GAMING HOUSE
-        </h1>
-        <nav>
-            <ul class="menu">
-                <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./pages/productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./pages/carrito.html">Carrito</a>
-                </li>
-                <li>
-                    <a href="./pages/ingresar.html">Ingresar</a>
-                </li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Gaming House</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"></a></li>
+                      <li><a class="dropdown-item" href="./pages/productos.html">Tarjetas graficas</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./pages/carrito.html">Mis compras</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/ingresar.html">Ingresar</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <hr>
@@ -44,24 +58,36 @@
         <h2 class="texto1">
             Hazte con tu propio ordenador ahora mismo 🎉🎉
         </h2>
-        <center>
-            <img src="./Fotos/images (1).jfif" alt="computadora de Muestra">
-            <img src="./Fotos/descarga (1).jfif" alt="computadora de Muestra">
-            <img src="./Fotos/descarga (2).jfif" alt="computadora de Muestra">
-        </center>
-
-        <hr>
-
-        <h2>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Fotos/images (1).jfif" class="d-block w-100" alt="Computadora de muestra">
+              </div>
+              <div class="carousel-item">
+                <img src="./Fotos/descarga (1).jfif" class="d-block w-100" alt="computadora de Muestra">
+              </div>
+              <div class="carousel-item">
+                <img src="./Fotos/descarga (2).jfif" class="d-block w-100" alt="computadora de Muestra">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <h2 class="nup">
             Nuestros ultimos productos
         </h2>
-        <img src="./Fotos/images.jfif" alt="placa de video nvidia GT 1600">
-        <img src="./Fotos/images (1).jfif" alt="placa de video nvidia RTX 3060">
-        <img src="./Fotos/descarga.jfif" alt="placa AMD RADEON">
-
+        <div class="ultimosProductos">
+            <img class="img1" src="./Fotos/images.jfif" alt="placa de video nvidia GT 1600">
+            <img class="img2" src="./Fotos/images (1).jfif" alt="placa de video nvidia RTX 3060">
+            <img class="img3" src="./Fotos/descarga.jfif" alt="placa AMD RADEON">
+        </div>
     </main>
-
-    <hr>
 
     <footer>
         <h3>

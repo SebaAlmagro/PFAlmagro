@@ -42,15 +42,7 @@ footer {
 .precio {
     display: inline-block
 }
-.caja1{ 
-    width: 300px;
-    height: 200px;
-    background-color: rgb(139, 134, 138);
-    padding: 20px;
-    margin: 10px;
-    overflow: auto;
-    border: rgb(63, 26, 68) 2px soli
-}
+
 .caja2 {
     width: 200px;
     height: 100px;
@@ -147,4 +139,3 @@ p {
 .navbar {
     border-radius: 10%;
 }
-

@@ -14,28 +14,42 @@
 
 <body>
     <header>
-        <h1>
-            GAMING HOUSE
-        </h1>
-        <nav>
-            <ul class="menu">
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="../pages/productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="../pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="../pages/carrito.html">Carrito</a>
-                </li>
-                <li>
-                    <a href="../pages/ingresar.html">Ingresar</a>
-                </li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Gaming House</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"></a></li>
+                      <li><a class="dropdown-item" href="../pages/productos.html">Tarjetas graficas</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../pages/carrito.html">Mis compras</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/ingresar.html">Ingresar</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <hr>
@@ -44,51 +58,50 @@
         <h2 class="texto1">
             Lo mejor que encontraras en relacion calidad/precio 🤯
         </h2>
-        <div>
-            <label class="color1" for="prod">¿que esta buscando?</label>
-            <select name="prod" id="">
-                <option value="TG" name="prod" >Tarjetas Graficas</option>
-                <option value="PM" name="prod" >Motherboards</option>
-                <option value="MR" name="prod" >Memoria Ram</option>
-                <option value="HDD" name="prod" >Discos duros Graficas</option>
-                <option value="SSD" name="prod" >Discos rigidos</option>
-                <option value="PR" name="prod" >Perifericos</option>
-
-            </select>
+        <div class="graficas">
+            <div>
+                <img class="imagenGrafica" src="../Fotos/Grafica 1.jpg" alt="">
+            </div>
+            <div>
+                <p>Placa de video AMD RADEON 6650 XT 16GB DDR5 - Asrock</p>
+                <p>$350000</p>
+            </div>
+            <div>
+                <img class="imagenGrafica" src="../Fotos/Grafica 2.jpg" alt="">
+            </div>
+            <div>
+                <p>Placa de video NVIDIA GEFORCE GTX 1650 4GB DDR4 - ASUS</p>
+                <p>$150000</p>
+            </div>
+            <div>
+                <img class="imagenGrafica" src="../Fotos/Grafica 3.jpg" alt="">
+            </div>
+            <div>
+                <p>Placa de video NVIDIA GEFORCE GTX 950 4GB DDR4 - GIGABITE</p>
+                <p>$100000</p>
+            </div>
+            <div>
+                <img class="imagenGrafica" src="../Fotos/Grafica 4.jpg" alt="">
+            </div>
+            <div>
+                <p>Placa de Video RTX 3050 Verto Dual Fan 8GB GDDR6 - PNY</p>
+                <p>$280000</p>
+            </div>
+            <div>
+                <img class="imagenGrafica" src="../Fotos/Grafica 5.jpg" alt="">
+            </div>
+            <div>
+                <p>Placa de video NVIDIA GEFORCE 1050 TI 4GB DDR4 - GIGABITE</p>
+                <p>$110000</p>
+            </div>
+            <div>
+                <img class="imagenGrafica" src="../Fotos/Grafica 6.jpg" alt="">
+            </div>
+            <div>
+                <p>Placa de video AMD RADEON 580 RX 8GB DDR4 - Asrock</p>
+                <p>$150000</p>
+            </div>
         </div>
-        <div class="precio">
-            <img class="producto" src="../Fotos/concepto-10021406.jpg" alt="placa de video">
-            <h3 class="precio">$$$</h3>
-        </div>
-        <divclass="precio">
-            <img class="producto" src="../Fotos/concepto-6140813.jpg" alt="placa de video">
-            <h3 class="precio">$$$</h3>
-        </divclass=>
-        <divclass="precio">
-            <img class="producto" src="../Fotos/depositphotos_148292013-stock-photo-computer-video-card-isolated.jpg" alt="placa de video">
-            <h3 class="precio">$$$</h3>
-        </divclass=>
-        <divclass="precio">
-            <img class="producto" src="../Fotos/descarga.jfif" alt="placa de video">
-            <h3 class="precio">$$$</h3>
-        </divclass=>
-        <divclass="precio">
-            <img class="producto" src="../Fotos/images (1).jfif" alt="placa de video">
-            <h3 class="precio">$$$</h3>
-        </divclass=>
-        <divclass="precio">
-            <img class="producto" src="../Fotos/images.jfif" alt="placa de video">
-            <h3 class="precio">$$$</h3>
-        </div>
-        <divclass="precio">
-            <img class="producto" src="../Fotos/placa de video.jfif" alt="placa de video">
-            <h3 class="precio">$$$</h3>
-        </div>
-        <divclass="precio">
-            <img class="producto" src="../Fotos/placa de video2.jfif" alt="placa de video">
-            <h3 class="precio">$$$</h3>
-        </div>
-
     </main>
 
     <hr>

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../Fotos/fondo.png);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    background: rgb(0, 0, 0);
+    padding: 1rem;
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+footer {
+    background: rgb(0, 0, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.menu {
+    background-color: black;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+} 
+.texto1 {
+    text-align: center;
+}
+.menu2 li {
+    display: inline-block
+}
+.imgChica1 {
+    width: 30px;
+}
+.producto {
+    width: 250px;
+}
+.precio {
+    display: inline-block
+}
+.caja1{ 
+    width: 300px;
+    height: 200px;
+    background-color: rgb(139, 134, 138);
+    padding: 20px;
+    margin: 10px;
+    overflow: auto;
+    border: rgb(63, 26, 68) 2px soli
+}
+.caja2 {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(139, 134, 138);
+    padding: 20px;
+    margin: 10px;
+    overflow: auto;
+    border: rgb(63, 26, 68) 2px solid;
+}
+.caja3 {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(139, 134, 138);
+    padding: 20px;
+    margin: 10px;
+    overflow: auto;
+    border: rgb(63, 26, 68) 2px solid;
+}
+h1 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+h2 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+h3 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+h4 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+

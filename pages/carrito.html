@@ -14,67 +14,91 @@
 
 <body>
     <header>
-        <h1>
-            GAMING HOUSE
-        </h1>
-        <nav>
-            <ul class="menu">
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="../pages/productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="../pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="../pages/carrito.html">Carrito</a>
-                </li>
-                <li>
-                    <a href="../pages/ingresar.html">Ingresar</a>
-                </li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Gaming House</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"></a></li>
+                      <li><a class="dropdown-item" href="../pages/productos.html">Tarjetas graficas</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../pages/carrito.html">Mis compras</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/ingresar.html">Ingresar</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <hr>
 
     <main>
+        <div class="carrito">
+            <div class="card" style="width: 12rem;">
+                <img src="../Fotos/Grafica 1.jpg" class="card-img-top" alt="grafica">
+                <div class="card-body">
+                  <h5 class="card-title">Placa de video AMD RADEON 6650 XT 16GB DDR5 - Asrock</h5>
+                  <p class="card-text">$350000</p>
+                  <a href="#" class="btn btn-primary">Eliminar</a>
+                </div>
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="../Fotos/Teclado.jpg" class="card-img-top" alt="teclado">
+                <div class="card-body">
+                  <h5 class="card-title">Teclado mecanico RedDragon J9920IP</h5>
+                  <p class="card-text">$34000</p>
+                  <a href="#" class="btn btn-primary">Eliminar</a>
+                </div>
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="../Fotos/Gabinete.jpg" class="card-img-top" alt="Gabinete">
+                <div class="card-body">
+                  <h5 class="card-title">Gabinete thermalteck acrilico RGB</h5>
+                  <p class="card-text">$60000</p>
+                  <a href="#" class="btn btn-primary">Eliminar</a>
+                </div>
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="../Fotos/Memoria Ram.jpg" class="card-img-top" alt="Ram">
+                <div class="card-body">
+                  <h5 class="card-title">Memoria RAM DDR5 32GB X2</h5>
+                  <p class="card-text">$80000</p>
+                  <a href="#" class="btn btn-primary">Eliminar</a>
+                </div>
+            </div>
+        </div>
 
-        <div class="caja2">
-            <h4>Total de su pedido:</h4>
-            <br>
-            <h5>$$$</h5>
-        </div>
-        <div>
-            <input type="submit" value="Comprar">
-            <input type="reset" value="Cancelar compra">
-        </div>
+        <h4>
+            Total de su pedido: $$$$$
+        </h4>
 
-        <div class="precio">
-            <img class="producto" src="../Fotos/concepto-10021406.jpg" alt="placa de video">
-            <h3 class="precio">$$$</h3>
-        </div>
-        <divclass="precio">
-            <img class="producto" src="../Fotos/concepto-6140813.jpg" alt="placa de video">
-            <h3 class="precio">$$$</h3>
-        </divclass=>
-        <divclass="precio">
-            <img class="producto" src="../Fotos/depositphotos_148292013-stock-photo-computer-video-card-isolated.jpg" alt="placa de video">
-            <h3 class="precio">$$$</h3>
-        </divclass=>
-        <divclass="precio">
-            <img class="producto" src="../Fotos/auriculares.jpg" alt="placa de video">
-            <h3 class="precio">$$$</h3>
-        </divclass=>
-        <divclass="precio">
-            <img class="producto" src="../Fotos/monitor.jfif" alt="placa de video">
-            <h3 class="precio">$$$</h3>
-        </divclass=>
+        <button type="button" class="btn btn-success">Comprar</button>
+        <button type="button" class="btn btn-secondary">Seguir comprando</button>
+        <button type="button" class="btn btn-danger">Cancelar</button>
+
     </main>
-
-    <hr>
 
     <footer>
         <h3>

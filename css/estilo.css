@@ -163,3 +163,14 @@ p {
     text-align: center;
     padding: 10px;
 }
+
+.card-text {
+    color: black;
+}
+
+.carrito {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}

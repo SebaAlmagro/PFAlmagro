@@ -119,15 +119,18 @@ p {
 }
 
 .img1 {
+    height: 300px;
     margin-right: 25px;
 }
 
 .img2 {
+    height: 300px;
     margin-right: 25px;
     margin-left: 25px;
 }
 
 .img3 {
+    height: 300px;
     margin-left: 25px;
 }
 

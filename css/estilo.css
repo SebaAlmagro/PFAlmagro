@@ -174,3 +174,22 @@ p {
     align-items: center;
     justify-content: space-around;
 }
+
+.form-label {
+    color: white;
+}
+
+.form-text {
+    color: white;
+}
+
+.form-check-label {
+    color: white;
+}
+
+.formulario {
+    width: 500px;
+    margin: 0 auto;
+    border: rgb(219, 215, 215) solid 2px;
+    padding: 1rem;
+}

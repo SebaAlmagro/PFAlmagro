@@ -3,21 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    background-image: url(../Fotos/fonod\ 3.jpg);
-    font-family: 'Roboto Condensed', sans-serif;
-}
-header{
-    background: rgb(19, 18, 18);
-    padding: 10px;
-    margin: 10px;
-    border-radius: 15%;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-footer {
-    background: rgb(0, 0, 0);
-    font-family: 'Roboto Condensed', sans-serif;
-}
+
 .menu {
     background-color: black;
     padding: 5px;
@@ -27,9 +13,6 @@ footer {
 .menu li {
     display: inline-block;
 } 
-.texto1 {
-    text-align: center;
-}
 .menu2 li {
     display: inline-block
 }
@@ -85,15 +68,6 @@ p {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.carousel {
-    height: 50hv;
-    margin: 5%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .carousel-inner {
     height: 500px;
     width: 500px;
@@ -138,10 +112,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.navbar {
-    border-radius: 10%;
 }
 
 .graficas {

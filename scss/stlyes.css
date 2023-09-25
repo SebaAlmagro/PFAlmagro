@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../Fotos/fonod\ 3.jpg);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+  background: rgb(19, 18, 18);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+header nav .navbar {
+  border-radius: 10%;
+}
+
+main .texto1 {
+  text-align: center;
+  color: white;
+}
+main .carousel {
+  height: 50hv;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .carousel-inner {
+  height: 500px;
+  width: 500px;
+}
+main .carousel-control-next {
+  height: 400px;
+  width: 800px;
+}
+main .carousel-control-prev {
+  height: 400px;
+  width: 800px;
+}
+main .nup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+main .ultimosProductos {
+  height: 300px;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .ultimosProductos .img1 {
+  height: 300px;
+  margin-right: 25px;
+}
+main .ultimosProductos .img2 {
+  height: 300px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+main .ultimosProductos .img3 {
+  height: 300px;
+  margin-left: 25px;
+}
+
+footer {
+  background: rgb(0, 0, 0);
+  font-family: "Roboto Condensed", sans-serif;
+}
+footer .menu2 li {
+  display: inline-block;
+}
+footer .imgChica1 {
+  width: 30px;
+}/*# sourceMappingURL=stlyes.css.map */

@@ -1,0 +1,9 @@
+main {
+    .carrito {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

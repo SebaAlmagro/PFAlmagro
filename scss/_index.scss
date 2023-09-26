@@ -1,0 +1,53 @@
+main {
+    .texto1 {
+        text-align: center;
+        color: white;
+    }
+    .carousel {
+        height: 50hv;
+        margin: 5%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel-inner {
+        height: 500px;
+        width: 500px;
+    }
+    
+    .carousel-control-next {
+    height: 400px;
+    width: 800px;
+    }
+    .carousel-control-prev {
+    height: 400px;
+    width: 800px;
+    }
+    .nup {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .ultimosProductos {
+        height: 300px;
+        border-radius: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .img1 {
+            height: 300px;
+            margin-right: 25px;
+        }
+        .img2 {
+            height: 300px;
+            margin-right: 25px;
+            margin-left: 25px;
+        }
+        .img3 {
+            height: 300px;
+            margin-left: 25px;
+        }
+    }
+}

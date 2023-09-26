@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../Fotos/fonod\ 3.jpg);
+    font-family: $tipografiaGeneral;
+}
+h1 {
+    color: white;
+    font-family: $tipografiaGeneral;
+
+}
+h2 {
+    color: white;
+    font-family: $tipografiaGeneral;
+
+}
+h3 {
+    color: white;
+    font-family: $tipografiaGeneral;
+
+}
+h4 {
+    color: white;
+    font-family: $tipografiaGeneral;
+}
+p {
+    color: white;
+    font-family: $tipografiaGeneral;
+}
+.menu {
+    background-color: black;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+} 

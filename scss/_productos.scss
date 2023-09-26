@@ -1,0 +1,16 @@
+main {
+    .graficas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 10px;
+        justify-content: space-around;
+    }
+    .graficas:hover {
+        border: 2px solid rgb(95, 92, 92);
+        transform: scale(1);
+    }
+    .card-text{
+        color: black;
+    }
+}

@@ -9,6 +9,42 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+h1 {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h2 {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h3 {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h4 {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.menu {
+  background-color: black;
+  padding: 5px;
+  list-style: none;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+}
+
 header {
   background: rgb(19, 18, 18);
   padding: 10px;
@@ -79,4 +115,49 @@ footer .menu2 li {
 }
 footer .imgChica1 {
   width: 30px;
-}/*# sourceMappingURL=stlyes.css.map */
+}
+
+main .row .col .card .card-text {
+  color: black;
+}
+
+main .graficas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: space-around;
+}
+main .graficas:hover {
+  border: 2px solid rgb(95, 92, 92);
+  transform: scale(1);
+}
+main .card-text {
+  color: black;
+}
+
+main .carrito {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main center .formualrio {
+  width: 50% px;
+  margin: 0 auto;
+  border: rgb(219, 215, 215) solid 2px;
+  padding: 1rem;
+}
+main center .formualrio .form-label {
+  color: white;
+}
+main center .formualrio .form-text {
+  color: white;
+}
+main center .formualrio .form-check-label {
+  color: white;
+}
+
+/*# sourceMappingURL=stlyes.css.map */

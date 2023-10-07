@@ -50,24 +50,4 @@ main {
             margin-left: 25px;
         }
     }
-    @media (min-width: 576px) {
-        /* Estilos para el encabezado (navbar) */
-        .navbar {
-          padding: 15px; /* Aumenta el espacio interno del encabezado */
-        }
-      
-        /* Estilos para el texto principal */
-        .texto1 {
-          font-size: 24px; /* Ajusta el tamaño del texto principal */
-        }
-      
-        /* Estilos para las imágenes de los productos */
-        .ultimosProductos img {
-          width: 200px; /* Redimensiona las imágenes de los productos */
-        }
-        #carouselExampleAutoplaying .carousel-inner img {
-          max-width: 100%; /* Las imágenes ocuparán el ancho completo del carrusel */
-          height: auto; /* Mantendrá la proporción original de la imagen */
-          } 
-        }  
 }    

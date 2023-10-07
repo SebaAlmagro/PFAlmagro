@@ -144,19 +144,19 @@ main .carrito {
   justify-content: space-around;
 }
 
-main center .formualrio {
-  width: 50% px;
+main center .formulario {
+  width: 50%;
   margin: 0 auto;
   border: rgb(219, 215, 215) solid 2px;
   padding: 1rem;
 }
-main center .formualrio .form-label {
+main center .formulario .form-label {
   color: white;
 }
-main center .formualrio .form-text {
+main center .formulario .form-text {
   color: white;
 }
-main center .formualrio .form-check-label {
+main center .formulario .form-check-label {
   color: white;
 }
 

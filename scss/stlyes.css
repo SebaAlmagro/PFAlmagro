@@ -138,10 +138,8 @@ main .card-text {
 
 main .carrito {
   display: flex;
-  flex-direction: row;
-  margin: 10px;
-  align-items: center;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 main center .formulario {
@@ -159,5 +157,38 @@ main center .formulario .form-text {
 main center .formulario .form-check-label {
   color: white;
 }
+main center .card {
+  width: calc(33.33% - 20px); /* Establece el ancho de cada tarjeta, con un espacio entre ellas */
+  margin-bottom: 20px; /* Espacio entre las tarjetas */
+}
+@media (max-width: 576px) {
+  .card {
+    width: 100%; /* Ocupa el 100% del ancho en pantallas más pequeñas */
+    margin-right: 0; /* Elimina el margen derecho para evitar espacio adicional */
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px); /* Dos tarjetas por fila en tablets */
+  }
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .card {
+    width: calc(33.33% - 20px); /* Tres tarjetas por fila en pantallas medianas */
+  }
+}
+@media screen and (min-width: 993px) {
+  .carrito {
+    flex-direction: column; /* Cambia a columna en pantallas grandes */
+  }
+  .card {
+    width: 100%; /* Ocupa todo el ancho en pantallas grandes */
+    margin-right: 0;
+  }
+}
+}
+
+
+
 
 /*# sourceMappingURL=stlyes.css.map */
